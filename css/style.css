@@ -1,0 +1,215 @@
+@import url(http://fonts.googleapis.com/css?family=Bitter|Ultra|Oswald);
+
+header {
+  text-align: center; 
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Ultra";
+  font-size: 400%;
+  color: white;
+  text-shadow:
+    -1px -1px 0 #999999,
+    1px -1px 0 #999999,
+    -1px 1px 0 #999999,
+    1px 1px 0 #999999;  
+  
+}
+body {
+  background-color: #E1E5E7;
+  
+}
+
+h1 {
+  font-family: "Oswald";
+  font-size: 250%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 30%;
+  color: white;
+    text-shadow:
+    -1px -1px 0 #999999,
+    1px -1px 0 #999999,
+    -1px 1px 0 #999999,
+    1px 1px 0 #999999;  
+}
+
+img {
+  width: 5%;
+}
+
+.together {
+  display: block;
+  width: 40%;
+  margin-bottom: 2%;
+  margin-left: auto;
+  margin-right: auto;
+
+  
+}
+
+.together .bread {
+  text-align: center;
+  font-family: "Oswald";
+  font-size: 200%;
+  
+}
+
+.together .cheese {
+  text-align: center;
+  font-family: "Oswald";
+  font-size: 200%;
+  
+}
+
+.together .meat {
+  text-align: center;
+  font-family: "Oswald";
+  font-size: 200%;
+  
+}
+
+.together .condiments {
+  text-align: center;
+  font-family: "Oswald";
+  font-size: 200%;
+  
+}
+
+.together .toppings{
+  text-align: center;
+  font-family: "Oswald";
+  font-size: 200%;
+  
+}
+
+.together .extras {
+  text-align: center;
+  font-family: "Oswald";
+  font-size: 200%;
+  
+}
+
+.together .bread_types {
+  margin-left: 12%;
+  font-family: "Bitter";
+
+
+}
+
+.together .meat_types {
+  margin-left: 12%;
+  font-family: "Bitter";
+  display: none;
+}
+
+
+.together .cheese_types {
+  margin-left: 12%;
+  font-family: "Bitter";
+  display: none;
+}
+
+
+.together .condiment_types {
+  margin-left: 12%;
+  font-family: "Bitter";
+  display: none;
+}
+
+
+.together .topping_types {
+  margin-left: 12%;
+  font-family: "Bitter";
+  display: none;
+}
+
+
+.together .extras_types {
+  margin-left: 12%;
+  font-family: "Bitter";
+  display: none;
+}
+
+.submit {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.together#one {
+  background-color: #C99262;
+  color: white;
+  border-radius: 5px;
+  padding: 1%;
+}
+
+.together#two {
+  background-color: #864740;
+  color: white;
+  border-radius: 5px;
+  padding: 1%;
+  
+}
+
+.together#three {
+  background-color: #F4B350;
+  color: white;
+  border-radius: 5px;
+  padding: 1%;
+  
+}
+
+.together#four {
+  background-color: #D64541;
+  color: white;
+  border-radius: 5px;
+  padding: 1%;
+  
+}
+
+.together#five {
+  background-color: #26A65B;
+  color: white;
+  border-radius: 5px;
+  padding: 1%;
+  
+}
+
+.together#six {
+  background-color: #C99262;
+  color: white;
+  border-radius: 5px;
+  padding: 1%;
+  
+}
+
+.together#end {
+  text-align: center; 
+  font-family: "Oswald";
+  color: #6C7A89;
+  background-color: white;
+  border-radius: 5px;
+  padding-left: 1%;
+  padding-right: 1%;
+  display: none;
+  width: 100%;
+
+
+}
+
+.together .results {
+  font-size: 300%;
+}
+
+.together .suggestion {
+  font-size: 150%;
+  font-family: "Bitter";
+
+}
+
+
+
+

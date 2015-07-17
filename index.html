@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Make Me A Sammich</title>
+    <link rel="stylesheet" type="type/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  </head>
+  <body>
+    <header> <img src="http://fc02.deviantart.net/fs70/i/2013/205/2/e/dat_burger_by_bobthelurker-d6evt4q.png"> Make Me A Sammich <img src="http://fc02.deviantart.net/fs70/i/2013/205/2/e/dat_burger_by_bobthelurker-d6evt4q.png"> </header>
+    <hr>
+    <h1>What's in your fridge?</h1>
+    <br><br>
+<div class="item_container"><!-- Start container for all the form stuff-->
+<form id="food_form" action="#" method="post">
+   <div class="together" id="one">
+     <div class="bread">Bread</div>
+     <div class="bread_types">
+      <input type="checkbox" name="bread" value="white"> White Bread<br>
+      <input type="checkbox" name="bread" value="wheat"> Wheat Bread<br>
+      <input type="checkbox" name="bread" value="burger"> Burger Buns<br>
+      <input type="checkbox" name="bread"  value="no_carbs">I don't like carbs - Lettuce!<br>
+       <p class="next" id="bread"> Next</p>
+     </div>
+   </div><!-- end bread types-->
+   
+  <div class="together" id="two"> 
+    <div class="meat">Meat</div>
+    <div class="meat_types"><!-- Start Meat types-->
+      <p class="previous" id="meat_previous"> Previous</p>
+      <input type="checkbox" name="bread"  value="ham">Ham<br>
+      <input type="checkbox" name="bread"  value="turkey">Turkey<br>
+      <input type="checkbox" name="bread"  value="burger_patty">Burger Patties<br>
+      <p class="next" id="meat_next"> Next</p>
+    </div>
+  </div><!-- end Meat Types-->
+          
+  <div class="together" id="three">
+   <div class="cheese">Cheese</div>
+   <div class="cheese_types"><!-- Start Cheese Types-->
+     <p class="previous" id="cheese_previous"> Previous</p>
+    <input type="checkbox" name="bread" value="American">American<br>
+    <input type="checkbox" name="bread" value="Swiss">Swiss<br>
+    <input type="checkbox" name="bread" value="none">None<br>
+     <p class="next" id="cheese_next"> Next</p>
+   </div>
+  </div><!-- End Cheese Types-->
+       
+  <div class="together" id="four">
+    <div class="condiments">Condiments</div>
+    <div class="condiment_types"><!-- Start Condiment Types-->
+      <p class="previous" id="condiments_previous"> Previous</p>
+     <input type="checkbox" name="bread" value="Ketchup">Ketchup<br> 
+     <input type="checkbox" name="bread" value="Mustard">Mustard<br>   
+     <input type="checkbox" name="bread" value="Mayo">Mayo<br>  
+      <p class="next" id="condiments_next"> Next</p>
+    </div>
+  </div><!-- End Condiment Types-->
+      
+  <div class="together" id="five">
+    <div class="toppings">Toppings</div>
+    <div class="topping_types">
+      <p class="previous" id="toppings_previous"> Previous</p>
+     <input type="checkbox" name="bread" value="Tomato">Tomato<br> 
+     <input type="checkbox" name="bread" value="Lettuce">Lettuce<br>  
+     <input type="checkbox" name="toppings" value="Onion">Onion<br> 
+      <p class="next" id="toppings_next"> Next</p>
+    </div>
+  </div>
+      
+  <div class="together" id="six">
+    <div class="extras">Extras</div>
+    <div class="extras_types"><!-- Start Extra Types-->
+      <p class="previous" id="extras_previous"> Previous</p>
+      <input type="checkbox" name="bread" value="pb">Peanut Butter<br>
+      <input type="checkbox" name="bread" value="jelly">Jelly<br>
+      <input type="checkbox" name="bread" value="none">None<br>
+    </div><!-- End Extra types -->
+  </div>
+    <div class="submit"><!-- Start submit div-->
+      <input type="submit" value="MAKE ME A SAMMICH">
+    </div><!--End Submit div -->
+  </form>
+</div>
+    <br><br><!-- End container for all the form stuff-->
+    <div class="together" id="end">
+      <hr>
+      <div class="results"> <h3>Results</h3></div>
+      <div class="suggestion">
+        <h4 id="makeIt"> Sample Text</h4>
+      </div>
+      <hr>
+    </div>
+    <script src="js/script.js"></script>
+    </body>
+</html>
