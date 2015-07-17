@@ -21,7 +21,7 @@ $(document).ready(function(){
     if(($.inArray("white", ingredients)  !== -1  || $.inArray("wheat", ingredients) !== -1) && $.inArray("turkey", ingredients) !== -1){
       $("#makeIt").text("Go make yourself a Turkey Sammich, you deserve it.");
       };
-    if(($.inArray("burger", ingredients) !== -1 && $.inArray("burger_patty", ingredients) !== -1) || $.inArray("American", ingredients) !== -1){
+    if($.inArray("burger", ingredients) !== -1 && $.inArray("burger_patty", ingredients) !== -1){
       $("#makeIt").text("Go make yourself a Bodacious Burger, buddy");
     }
     console.log("in makeSammich function.");
