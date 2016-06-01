@@ -77,7 +77,9 @@ $(document).ready(function(){
     $("div.topping_types").slideDown(1000);
     $("div.extras_types").slideUp(1000);
   });
-  //$("")
+  $("h4#makeIt").click(function(){
+  	location.reload();
+  });
 
       var y = $(window).scrollTop();  //your current y position on the page
   
