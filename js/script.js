@@ -77,7 +77,7 @@ $(document).ready(function(){
     $("div.topping_types").slideDown(1000);
     $("div.extras_types").slideUp(1000);
   });
-  $("h4#makeIt").click(function(){
+  $("h4#makeIt2").click(function(){
   	location.reload();
   });
 
