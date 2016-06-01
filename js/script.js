@@ -27,7 +27,7 @@ $(document).ready(function(){
     console.log("in makeSammich function.");
     console.log(ingredients);
     if (ingredients === []){
-      $("#makeIt").text("Our limited sammich list cannot give you a suggestion. :( this makes us sad");
+      $("#makeIt").text("Our limited sammich list cannot give you a suggestion. this makes us sad");
     }
     
   };
@@ -77,7 +77,7 @@ $(document).ready(function(){
     $("div.topping_types").slideDown(1000);
     $("div.extras_types").slideUp(1000);
   });
-    
+  //$("")
 
       var y = $(window).scrollTop();  //your current y position on the page
   
