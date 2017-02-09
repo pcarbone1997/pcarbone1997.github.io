@@ -27,7 +27,7 @@ $(document).ready(function(){
     console.log("in makeSammich function.");
     console.log(ingredients);
     if (ingredients === []){
-      $("#makeIt").text("Our limited sammich list cannot give you a suggestion. This makes us sad. :(");
+      $("#makeIt").text("Ummm... I don't know what you want me to say. You have no sammich. Poor you.");
     }
     
   };
