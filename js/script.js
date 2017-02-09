@@ -3,7 +3,7 @@ $(document).ready(function(){
   function makeSammich(ingredients){
     
     if($.inArray("pb", ingredients) !== -1 && $.inArray("jelly", ingredients) !== -1){
-      $("#makeIt").text("Go make yourself a PB&J (c) Sammie you skrublord");
+      $("#makeIt").text("Go make yourself a PB&J Sammie you kool kat");
     };
     if($.inArray("no_carbs", ingredients) !== -1 && $.inArray("turkey", ingredients) !== -1 && $.inArray("ham", ingredients) !== -1){
       $("#makeIt").text("A lettuce wrap is definitely the way to go!");
@@ -27,7 +27,7 @@ $(document).ready(function(){
     console.log("in makeSammich function.");
     console.log(ingredients);
     if (ingredients === []){
-      $("#makeIt").text("Our limited sammich list cannot give you a suggestion. this makes us sad");
+      $("#makeIt").text("Our limited sammich list cannot give you a suggestion. This makes us sad. :(");
     }
     
   };
